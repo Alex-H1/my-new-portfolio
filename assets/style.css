@@ -6,11 +6,38 @@
     background-color: rgb(47, 47, 49);
     color: #ffffff;
     text-align: center;
-};
+}
 
 .box-1 h1 {
     display: inline-block;
     font-size: 48px;
+}
+
+.box-1 nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.box-1 nav ul {
+    list-style-type: none;
+}
+
+.box-1 nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a{
+    color: white;
+}
+
+.img{
+    height: 350px;
+    /* width: 100%; */
+    /* margin-bottom: 25px; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Computer-Science-Image.jpg)
 };
-
-
