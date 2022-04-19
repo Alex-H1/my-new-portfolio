@@ -12,20 +12,43 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>My Portfolio</title>
 </head>
-<body class="has-background-grey">
+<body class="has-background-dark" >
     <header class="box-1">
         <h1>Alex Hernandez</h1>
         <div class="tabs is-centered">
             <ul>
-              <li><a class="has-text-white">project</a></li>
-              <li><a class="has-text-white">project</a></li>
-              <li><a class="has-text-white">About Me</a></li>
-              <li><a class="has-text-white">Contact Me</a></li>
+              <li><a href="#aboutMe" class="has-text-white">About Me</a></li>
+              <li><a href="#weather" class="has-text-white">Weather Dashboard</a></li>
+              <li><a href="#password" class="has-text-white">Password Generator</a></li>
+              <li><a href="#match" class="has-text-white">Celebrity Matchmaker</a></li>
+              <li><a href="#contactMe" class="has-text-white">Contact Me</a></li>
             </ul>
         </div>
     </header>
 
     <div class="img"></div>
+    <hr>
+    
+    <div class="container">
+      <div class="card is-4">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img src="./assets/Snapshot-788315826.jpg" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p id="aboutMe" class="title is-4">Alex Hernandez</p>
+              </div>
+            </div>
+            <div class="content">
+             <p>Hello, My name is Alex Hernandez and I am a aspiring softwear developer and currently a student at a coding bootcamp at U.C Berkeley.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
     <hr>
 
     <section class="projects">
@@ -34,31 +57,35 @@
                 <div class="tile is-vertical is-8">
                   <div class="tile">
                     <div class="tile is-parent">
-                        <article class="tile is-child notification is-info">
-                            <p class="title">Weather Dashboard</p>
-                            <p class="subtitle">With an image</p>
+                        <article class="tile is-child has-background-grey-light">
+                            <p id="weather" class="title">Weather Dashboard</p>
+                            <p class="subtitle ">This is my weather Dashboard, <a target="_blank" href="https://alex-h1.github.io/Weather-Dashboard/">here</a> you can see the five day forcast for any city.</p>
                             <figure class="image is-4by3">
                               <img src="./assets/Screenshot 2022-04-17 114334.jpg" alt="weather dashboard">
                             </figure>
+                            <p>Click <a target="_blank" href="https://github.com/Alex-H1/Weather-Dashboard.git">here</a> for my GitHub repository.</p>
                         </article>
                     </div>
                     <div class="tile is-parent">
-                      <article class="tile is-child notification is-info">
-                        <p class="title">Password Generator</p>
-                        <p class="subtitle">With an image</p>
+                      <article class="tile is-child has-background-grey-light">
+                        <p id="password" class="title">Password Generator</p>
+                        <p class="subtitle"><a target="_blank" href="https://alex-h1.github.io/password-generator/">Here</a> is my random password generator.</p>
                         <figure class="image is-4by3">
                           <img src="./assets/Screenshot 2022-04-17 112525.jpg" alt="password generator">
                         </figure>
+                        <P>Click <atarget="_blank" href="https://github.com/Alex-H1/password-generator.git">here</a> for my GitHub repository </P>
+
                       </article>
-                    </div>
+                   </div>
                   </div>
                   <div class="tile is-parent">
-                    <article class="tile is-child notification is-danger">
-                      <p class="title">Wide tile</p>
-                      <p class="subtitle">Aligned with the right tile</p>
+                    <article class="tile is-child has-background-grey-light">
+                      <p id="match" class="title">Celebrity Matchmaker</p>
+                      <p class="subtitle"><a target="_blank" href="https://mayaimorales.github.io/celebrity-matchmaker/">Click</a> to find your Celebrity match.</p>
                       <figure class="image is-3by1">
                         <img src="./assets/Screenshot 2022-04-17 115532.jpg" alt="Celebrity matchmaker quiz">
                       </figure>
+                      <p>click <a target="_blank" href="https://github.com/Alex-H1/celebrity-matchmaker.git">here</a> to see my team and I repository.</p>
                     </article>
                   </div>
                 </div>
@@ -66,55 +93,11 @@
         </div>
     </section>
 
-
-    <hr>
-
-    <div class="container">
-        <div class="card is-4">
-            <!-- <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-              </figure>
-            </div> -->
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-96x96">
-                    <img src="./assets/Snapshot-788315826.jpg" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">Alex Hernandez</p>
-                  <!-- <p class="subtitle is-6">@johnsmith</p> -->
-                </div>
-              </div>
-          
-              <div class="content">
-               <p>Hello, My name is Alex Hernandez and I am a aspiring softwear developer and currently a student at a coding bootcamp at U.C Berkeley.</p>
-                <!-- <a href="https://github.com/Alex-H1?tab=repositories" target="_blank"><button class="button is-outlined">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Alex-H1</span>
-                    </button>
-                </a> 
-                <a href="https://www.linkedin.com/in/alex-hernandez-438743233" target="_blank" ><button class="button is-outlined">
-                    <span class="icon">
-                      <i class="fab fa-linkedin"></i>
-                    </span>
-                    <span>Alex Hernandez</span>
-                    </button>
-                </a> -->
-                <!-- <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
-              </div>
-            </div>
-        </div>
-    </div>
     <hr>
 
     <footer class="footer">
       <div class="content has-text-centered">
-        <h3>Contact Me</h3>
+        <h3 id="contactMe" >Contact Me</h3>
       <div class="columns is-centered">
         <div class="column is-2">
           <p>Email:</p>
