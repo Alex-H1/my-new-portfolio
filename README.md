@@ -12,3 +12,6 @@ click [here](https://alex-h1.github.io/my-new-portfolio/) to deployed site.
 ![alt text](./assets/Animation.gif)
 
 ![alt text](./assets/Screenshot%202022-04-18%20223031.jpg)
+
+## License
+License under[ MIT License](license)
